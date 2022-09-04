@@ -42,7 +42,7 @@ Head in the clouds
 .. toctree::
    :maxdepth: 1
    :includehidden:
-   :caption: CI/CD pipeline
+   :caption: CI/CD pipelines
 
    docs/cicd/README.md
    docs/cicd/supply-chain.md
