@@ -1,8 +1,8 @@
 Head in the clouds
 ==============================================
 
-.. image:: _static/images/in-progress.png
-  :alt: In Progress ...
+Virtualisation technology in the cloud has become a huge resource to leverage, as it allows promises high availability
+and access to resources from anywhere ...
 
 .. toctree::
    :maxdepth: 1
