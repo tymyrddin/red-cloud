@@ -2,7 +2,10 @@ Head in the clouds
 ==============================================
 
 Virtualisation technology in the cloud has become a huge resource to leverage, as it allows promises high availability
-and access to resources from anywhere ...
+and access to resources from anywhere ... meanwhile, none of the cloud suppliers protect the data under their care.
+They protect the security of the cloud, not the data in the cloud. Responsibility for the CIA (confidentiality,
+integrity, and availability) of the data in the cloud, remains with the data owner. Data in the cloud is running on
+someone else's server, and the data is in the clear, in motion and in use.
 
 .. toctree::
    :maxdepth: 1
