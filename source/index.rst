@@ -10,6 +10,15 @@ someone else's server, and the data is in the clear, in motion and in use.
 .. toctree::
    :maxdepth: 1
    :includehidden:
+   :caption: Information gathering
+
+   docs/recon/README.md
+   docs/recon/scanning.md
+   docs/recon/s3-urls.md
+
+.. toctree::
+   :maxdepth: 1
+   :includehidden:
    :caption: Account and privilege attacks
 
    docs/roles/README.md
