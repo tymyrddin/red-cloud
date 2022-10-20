@@ -1,4 +1,4 @@
-# Investigating S3 URLs
+# Investigating AWS S3 URLs
 
 ## Endpoints
 

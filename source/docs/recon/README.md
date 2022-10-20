@@ -15,6 +15,7 @@ To gain information for initial access.
 
 ## How?
 
+* [Mapping endpoints and plan](map.md)
 * [Scanning cloud infrastructure](scanning.md)
-* [Investigating S3 URLs](s3-urls.md)
+* [Investigating AWS S3 URLs](s3-urls.md)
 

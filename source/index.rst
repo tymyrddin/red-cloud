@@ -10,9 +10,20 @@ someone else's server, and the data is in the clear, in motion and in use.
 .. toctree::
    :maxdepth: 1
    :includehidden:
+   :caption: Challenges
+
+   docs/challenges/README.md
+   docs/challenges/transparency.md
+   docs/challenges/sharing.md
+   docs/challenges/policies.md
+
+.. toctree::
+   :maxdepth: 1
+   :includehidden:
    :caption: Information gathering
 
    docs/recon/README.md
+   docs/recon/map.md
    docs/recon/scanning.md
    docs/recon/s3-urls.md
 
