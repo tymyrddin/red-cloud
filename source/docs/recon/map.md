@@ -1,5 +1,7 @@
 # Mapping endpoints
 
+* Collect information to identify assets a target has across all cloud providers.
+* Identify services hosted with third-party companies.
 * Map out all the endpoints: user interface, APIs, subnetworks, etc. for which testing is to be done.
 * Decide which endpoints to exclude based on policy restrictions, user permissions, etc.
 * Decide the route for performing the pentest: from application or database.
