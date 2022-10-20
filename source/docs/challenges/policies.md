@@ -44,7 +44,7 @@ The Acceptable Use Policy does not permit:
 * Piracy or any other illegal activity.
 * Phishing.
 * Spamming.
-* Distributing trojans, ransomware, etc during the tests.
+* Distributing trojans, ransomware, etc. during the tests.
 * Violating the rights of other GCP users or conducting penetration tests on their assets.
 * Violating or trying to circumvent terms of service.
 * Interfering with the equipment supporting GCP.
