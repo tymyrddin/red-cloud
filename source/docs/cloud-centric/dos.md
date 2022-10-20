@@ -1,5 +1,7 @@
 # Denial of service
 
+Take note of applicable [policies](../challenges/policies.md).
+
 ## Attack tree
 
 ```text

@@ -3,7 +3,8 @@
 Each cloud service provider has its own policy regarding conducting cloud penetration testing. This policy defines the 
 endpoints and types of tests that can be conducted. And some require an advance notice before testing. 
 
-These differences in policies can be a challenge and limits the scope of cloud penetration testing.
+These differences in policies can be a challenge and also limits the scope of cloud penetration testing, while black 
+hats have no such squirms.
 
 ## AWS
 
