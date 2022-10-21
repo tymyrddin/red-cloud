@@ -73,7 +73,7 @@ someone else's server, and the data is often in the clear, in motion and in use.
 .. toctree::
    :maxdepth: 1
    :includehidden:
-   :caption: Prevention
+   :caption: Shift left
 
    docs/prevent/README.md
    docs/prevent/identify.md

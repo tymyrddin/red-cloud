@@ -74,7 +74,6 @@ html_show_sphinx = False
 # If true, "(C) Copyright ..." is shown in the HTML footer. Default is True.
 html_show_copyright = False
 
-
 # Intersphinx
 intersphinx_mapping = {
     "red-recon": ("https://tymyrddin.github.io/red-recon/", None),
