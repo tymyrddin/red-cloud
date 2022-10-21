@@ -17,4 +17,4 @@ proactive basis. This way, vulnerabilities can be remediated before the asset ca
 * [Identify](identify.md)
 * [Quantify](quantify.md)
 * [Prioritise](prioritise.md)
-* [Automated tools](tools.md)
+* [Use automated tools](tools.md)

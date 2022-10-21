@@ -73,13 +73,13 @@ someone else's server, and the data is often in the clear, in motion and in use.
 .. toctree::
    :maxdepth: 1
    :includehidden:
-   :caption: Vulnerability assessments
+   :caption: Prevention
 
-   docs/vulns/README.md
-   docs/vulns/identify.md
-   docs/vulns/quantify.md
-   docs/vulns/prioritise.md
-   docs/vulns/tools.md
+   docs/prevent/README.md
+   docs/prevent/identify.md
+   docs/prevent/quantify.md
+   docs/prevent/prioritise.md
+   docs/prevent/tools.md
 
 .. toctree::
    :caption: Links

@@ -1,4 +1,4 @@
-# Automated tools
+# Use automated tools
 
 Cloud penetration testing tools have evolved considerably, and selecting the right tool depends on the cloud provider. 
 These can also assist vulnerability scanning.
