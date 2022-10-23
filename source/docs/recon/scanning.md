@@ -1,4 +1,4 @@
-# Scanning cloud infrastructure
+# Scanning cloud infrastructure (nmap)
 
 Most internet resources on cloud providers, like load balancers, content distribution networks, S3 buckets, 
 etc., regularly rotate their IP addresses. If the nmap takes too long, the addresses will have 
