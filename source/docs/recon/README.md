@@ -16,7 +16,6 @@ To gain information for initial access.
 ## How?
 
 * [Mapping endpoints and plan](map.md)
-* [Scanning cloud infrastructure (nmap)](scanning.md)
 * [Cloud penetration testing tools](tools.md)
 * [Investigating AWS S3 URLs](s3-urls.md)
 
