@@ -25,6 +25,7 @@ someone else's server, and the data is often in the clear, in motion and in use.
    docs/recon/README.md
    docs/recon/map.md
    docs/recon/scanning.md
+   docs/recon/tools.md
    docs/recon/s3-urls.md
 
 .. toctree::
