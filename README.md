@@ -1,7 +1,4 @@
-# Attack Trees
-
-![Publish Head in the clouds using Sphinx](https://github.com/tymyrddin/red-cloud/workflows/Publish%20Head%20in%20the%20clouds%20using%20Sphinx/badge.svg?branch=main)
- Deployed: https://tymyrddin.github.io/red-cloud/
+# Cloud
 
 Built with [Sphinx](https://www.sphinx-doc.org) using a [theme](https://github.com/readthedocs/sphinx_rtd_theme) provided
 by [Read the Docs](https://readthedocs.org/).

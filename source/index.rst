@@ -92,4 +92,4 @@ someone else's server, and the data is often in the clear, in motion and in use.
 .. toctree::
    :caption: Links
 
-   Red Team <https://tymyrddin.github.io/red/>
+   Red Team <https://red.tymyrddin.dev/>
