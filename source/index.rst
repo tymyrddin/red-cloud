@@ -7,6 +7,8 @@ They protect the security of the cloud, not the data in the cloud. Responsibilit
 integrity, and availability) of the data in the cloud, remains with the data owner. Data in the cloud is running on
 someone else's server, and the data is often in the clear, in motion and in use.
 
+----
+
 .. toctree::
    :maxdepth: 1
    :includehidden:
@@ -88,8 +90,3 @@ someone else's server, and the data is often in the clear, in motion and in use.
    docs/prevent/quantify.md
    docs/prevent/prioritise.md
    docs/prevent/tools.md
-
-.. toctree::
-   :caption: Links
-
-   Red Team <https://red.tymyrddin.dev/>
