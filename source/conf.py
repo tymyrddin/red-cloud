@@ -81,3 +81,7 @@ intersphinx_mapping = {
     "red-enum": ("https://red.tymyrddin.dev/projects/enum/en/latest/", None),
 }
 myst_url_schemes = ["http", "https", ]
+
+myst_enable_extensions = [
+    "tasklist",
+]

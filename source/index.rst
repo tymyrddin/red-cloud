@@ -12,73 +12,33 @@ someone else's server, and the data is often in the clear, in motion and in use.
 .. toctree::
    :maxdepth: 1
    :includehidden:
-   :caption: Challenges
+   :caption: Preparation
 
-   docs/challenges/README.md
-   docs/challenges/transparency.md
-   docs/challenges/sharing.md
-   docs/challenges/policies.md
-
-.. toctree::
-   :maxdepth: 1
-   :includehidden:
-   :caption: Information gathering
-
-   docs/recon/README.md
-   docs/recon/map.md
-   docs/recon/tools.md
-   docs/recon/s3-urls.md
+   Build a local testlab <https://red.tymyrddin.dev/projects/testlab/en/latest/docs/cloud/README.html>
+   Reconnaissance <https://red.tymyrddin.dev/projects/recon/en/latest/docs/cloud/README.html>
+   Enumeration <https://red.tymyrddin.dev/projects/enum/en/latest/docs/system/cloud.html>
 
 .. toctree::
    :maxdepth: 1
    :includehidden:
-   :caption: Enumeration
+   :caption: Notes on techniques
 
-   docs/enum/README.md
-   docs/enum/scanning.md
-
-.. toctree::
-   :maxdepth: 1
-   :includehidden:
-   :caption: Account and privilege attacks
-
-   docs/roles/README.md
-   docs/roles/harvesting.md
-   docs/roles/escalation.md
-   docs/roles/takeover.md
-   docs/roles/spraying.md
-
-.. toctree::
-   :maxdepth: 1
-   :includehidden:
-   :caption: Misconfigured cloud assets
-
-   docs/misconfigured/README.md
-   docs/misconfigured/iam.md
-   docs/misconfigured/federation.md
-   docs/misconfigured/object-storage.md
-   docs/misconfigured/containers.md
+   docs/notes/README.md
+   docs/notes/challenges.md
+   docs/notes/accounts.md
+   docs/notes/cloud-centric.md
+   docs/notes/misconfigurations.md
+   docs/notes/cicd.md
 
 .. toctree::
    :glob:
    :maxdepth: 1
    :includehidden:
-   :caption: Cloud-centric attacks
+   :caption: CTFs and challenges
 
-   docs/cloud-centric/README.md
-   docs/cloud-centric/dos.md
-   docs/cloud-centric/malware-injection.md
-   docs/cloud-centric/ssti.md
-   docs/cloud-centric/side-channel.md
-   docs/cloud-centric/sdk.md
-
-.. toctree::
-   :maxdepth: 1
-   :includehidden:
-   :caption: CI/CD pipelines
-
-   docs/cicd/README.md
-   docs/cicd/supply-chain.md
+   docs/ctf/README.md
+   docs/ctf/bust-a-kube.md
+   docs/ctf/flaws2.md
 
 .. toctree::
    :maxdepth: 1
