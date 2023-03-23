@@ -39,14 +39,3 @@ someone else's server, and the data is often in the clear, in motion and in use.
    docs/ctf/README.md
    docs/ctf/bust-a-kube.md
    docs/ctf/flaws2.md
-
-.. toctree::
-   :maxdepth: 1
-   :includehidden:
-   :caption: Shift left
-
-   docs/prevent/README.md
-   docs/prevent/identify.md
-   docs/prevent/quantify.md
-   docs/prevent/prioritise.md
-   docs/prevent/tools.md

@@ -27,6 +27,17 @@ The goal is to gain:
 2. Inject during build by compromising the build system (MitM) and manipulating package download or running a malicious build.
 3. Inject in repository system by capturing credentials or tokens, exploiting vulnerabilities, or deploying in a mirror repository.
 
+## Remediation
+
+Securing CI/CD is a complex practice that encompasses the identification, remediation, and prevention of security risks across each stage of a pipeline. While building a robust security posture is essential, the framework is to also continue to maintain the agility and pace of release cycles. As a result, when compared to securing legacy frameworks, there are a number of additional challenges with administering security on CI/CD pipelines, including:
+
+* Improper secrets management
+* Inconsistent approaches to microservices
+* Inadequate security automation
+* Conflicts between security and velocity
+* Unauthorised access to code registries
+* Developer and DevOps resistance 
+
 ## Resources
 
 * [Backstabber's Knife Collection: A Review of Open Source Software Supply Chain Attacks](https://arxiv.org/abs/2005.09535)

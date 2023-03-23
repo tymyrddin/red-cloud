@@ -32,7 +32,12 @@ Grant persistent access within the environment, resulting in pervasive access to
 
 In many cases, multifactor authentication will be in place and will mitigate these attacks, and in case vulnerable cloud interfaces are exposed, password spraying tools designed for common login services may not work. Use cloudspecific tools for password spraying.
 
+## Remediation
 
+Using common or weak passwords can make cloud accounts vulnerable to brute force attacks. The attacker can use automated tools to make guesses thereby making way into the account using those credentials. The results can lead to a complete account takeover. 
+
+* Reusing passwords.
+* Using easily rememberable passwords.
 
 ## Resources
 

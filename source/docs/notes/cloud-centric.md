@@ -46,3 +46,14 @@ These are all powerful tools, but this means that keys, secrets, configurations,
 
 Pentesting will have to focus on finding weaknesses in the implementation of policies and practices designed to protect this information throughout the provisioning and management process, especially when cloud SDKs and CI/CD are involved.
 
+## Remediation
+
+Most businesses try to get their cloud infrastructure built as cheaply as possible. Due to poor coding practices, the applications offer SQLi, XSS, CSRF vulnerabilities to hackers. The most common are listed in OWASP top 10. It is these vulnerabilities that are the root cause for the majority of cloud web services being compromised.
+
+Outdated software contains critical security vulnerabilities that can compromise cloud services. Most software vendors do not use a streamlined update procedure or the users disable automatic updates themselves. This makes the cloud services outdated which hackers identify using automated scanners.
+
+APIs are widely used in cloud services to share information across applications. And insecure APIs can therefor also lead to a large-scale data leak by:
+
+* Improper use of HTTP methods like PUT, POST, DELETE in APIs can allow hackers to upload malware on the server or delete data. 
+* Improper access control and lack of input sanitization are also the main causes of APIs getting compromised.
+

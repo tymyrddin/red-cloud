@@ -58,6 +58,13 @@ Kubernetes is better for systems that require orchestration across many nodes, a
 1. Break out of containerised system
 2. Leverage container resources to further your access to other systems, or to the hosting system
 
+## Remediation
+
+Cloud service misconfigurations are the most common cloud vulnerability (misconfigured S3 Buckets). The most famous case was that of the Capital One data leak which led to the compromise of the data of roughly 100 million Americans and 6 million Canadians. The most common cloud server misconfigurations are:
+
+* Improper permissions
+* Not encrypting the data and differentiation between private and public data.
+
 ## Resources
 
 * [Okta](https://www.okta.com/identity-101/what-is-federated-identity)
