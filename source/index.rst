@@ -7,6 +7,9 @@ They protect the security of the cloud, not the data in the cloud. Responsibilit
 integrity, and availability) of the data in the cloud, remains with the data owner. Data in the cloud is running on
 someone else's server, and the data is often in the clear, in motion and in use.
 
+.. image:: _static/images/in-progress.png
+  :alt: Forever in progress ...
+
 ----
 
 .. toctree::
@@ -39,3 +42,9 @@ someone else's server, and the data is often in the clear, in motion and in use.
    docs/ctf/README.md
    docs/ctf/bust-a-kube.md
    docs/ctf/flaws2.md
+
+
+----
+
+.. image:: _static/images/books.png
+  :alt: Useful books
