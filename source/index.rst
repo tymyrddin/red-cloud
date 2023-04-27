@@ -33,16 +33,40 @@ someone else's server, and the data is often in the clear, in motion and in use.
    docs/notes/misconfigurations.md
    docs/notes/cicd.md
 
+----
+
+.. toctree::
+   :maxdepth: 1
+   :includehidden:
+   :caption: Attacking and defending AWS
+
+   docs/aws/README.md
+   docs/aws/enum-iam.md
+   docs/aws/mis-trust-policy.md
+   docs/aws/overly-permissive-1.md
+   docs/aws/dangerous-policy-1.md
+   docs/aws/dangerous-policy-2.md
+   docs/aws/overly-permissive-2.md
+   docs/aws/pass-role-ec2.md
+   docs/aws/pass-role-lambda.md
+   docs/aws/pass-role-formation.md
+   docs/aws/api-gateway-enum.md
+   docs/aws/verb-tampering.md
+   docs/aws/mis-private-api.md
+   docs/aws/iam-auth.md
+   docs/aws/dos.md
+   docs/aws/poor-lambda-authoriser.md
+
+----
+
 .. toctree::
    :glob:
    :maxdepth: 1
    :includehidden:
-   :caption: CTFs and challenges
+   :caption: More
 
-   docs/ctf/README.md
-   docs/ctf/bust-a-kube.md
-   docs/ctf/flaws2.md
-
+   docs/more/bust-a-kube.md
+   docs/more/flaws2.md
 
 ----
 
