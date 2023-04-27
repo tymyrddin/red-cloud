@@ -15,11 +15,21 @@ someone else's server, and the data is often in the clear, in motion and in use.
 .. toctree::
    :maxdepth: 1
    :includehidden:
+   :caption: Test lab
+
+   AWS tools <https://red.tymyrddin.dev/projects/testlab/en/latest/docs/cloud/aws.html>
+
+----
+
+.. toctree::
+   :maxdepth: 1
+   :includehidden:
    :caption: Preparation
 
-   Build a local testlab <https://red.tymyrddin.dev/projects/testlab/en/latest/docs/cloud/README.html>
    Reconnaissance <https://red.tymyrddin.dev/projects/recon/en/latest/docs/cloud/README.html>
    Enumeration <https://red.tymyrddin.dev/projects/enum/en/latest/docs/system/cloud.html>
+
+----
 
 .. toctree::
    :maxdepth: 1
