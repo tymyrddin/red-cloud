@@ -15,7 +15,7 @@ To overcome the challenges to build a meaningful and sustainable cloud testing p
 
 ## How?
 
-* [Challenges](challenges.md)
+* [Challenges and problems](challenges.md)
 * [Account and privilege attacks](accounts.md)
 * [Cloud-centric attacks](cloud-centric.md)
 * [Abusing misconfigurations](misconfigurations.md)

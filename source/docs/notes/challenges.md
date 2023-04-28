@@ -1,4 +1,4 @@
-# Challenges
+# Challenges and problems
 
 ## Lack of transparency
 
@@ -56,3 +56,6 @@ The Acceptable Use Policy does not permit:
 * Violating or trying to circumvent terms of service.
 * Interfering with the equipment supporting GCP.
 
+## Resources
+
+* [Cloud Native Security](https://www.fugue.co/cloud-security)

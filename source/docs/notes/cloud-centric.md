@@ -57,3 +57,9 @@ APIs are widely used in cloud services to share information across applications.
 * Improper use of HTTP methods like PUT, POST, DELETE in APIs can allow hackers to upload malware on the server or delete data. 
 * Improper access control and lack of input sanitization are also the main causes of APIs getting compromised.
 
+## Resources
+
+* [AWS IP address ranges](https://docs.aws.amazon.com/vpc/latest/userguide/aws-ip-ranges.html#aws-ip-download)
+* [AWS IP ranges (.json)](https://ip-ranges.amazonaws.com/ip-ranges.json)
+* [GrayHat Warfare](https://grayhatwarfare.com)
+
