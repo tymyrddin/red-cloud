@@ -75,8 +75,10 @@ someone else's server, and the data is often in the clear, in motion and in use.
    :includehidden:
    :caption: More
 
-   docs/more/bust-a-kube.md
-   docs/more/flaws2.md
+   Bust-a-Kube <https://www.bustakube.com/>
+   flAWS 2 <http://flaws2.cloud/>
+   AWSGoat <https://github.com/ine-labs/AWSGoat>
+   CloudGoat <https://github.com/RhinoSecurityLabs/cloudgoat>
 
 ----
 
