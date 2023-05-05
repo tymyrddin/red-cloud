@@ -29,4 +29,4 @@ This project welcomes contributions and suggestions.
 
 ## Mind
 
-"He didn't take any notice!" whispered Tomjon. "A born critic," said the dwarf. ~TP
+It’s still magic even if you know how it’s done. – from A Hat Full of Sky
