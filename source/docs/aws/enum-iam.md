@@ -9,6 +9,9 @@ Objective: Using the access credentials, enumerate users, roles, and policies on
 3. Search for the IAM dashboard and navigate to it.
 4. Click on **Users**.
 5. To enumerate a user click on the username. Check user **Permissions** and policies.
+
+![IAM User permissions](../../_static/images/enum-iam-user-sc.png)
+
 6. Check **Groups** for the user.
 7. Check the user’s **Security credentials**.
 8. Similarly check for other user's permissions.
@@ -19,16 +22,28 @@ Objective: Using the access credentials, enumerate users, roles, and policies on
 13. Check the for the group attached policies.
 14. Similarly check for the other groups.
 15. Click on **Policies** in the left pane to enumerate policies.
+
+![IAM Policies](../../_static/images/enum-iam-policies.png)
+
 16. Check **Customer-managed** and **AWS managed** policies.
 17. Click on the policy name to enumerate the policy.
 18. Check policy document, policy usages and policy permissions.
 19. Similarly enumerate other **AWS managed** policies.
 20. Click on **Roles** on the left panel to enumerate roles.
+
+![IAM Roles](../../_static/images/enum-iam-roles.png)
+
 21. Click on role name to enumerate roles for the AWS account.
 22. Check the role trust policy.
 23. Check role's **Trusted entities**.
+
+![IAM Trusted entities of a role](../../_static/images/enum-iam-ad-crow-te.png)
+
 24. Check the role's inline policies.
 25. Check the role's **Trusted entities**.
+
+![IAM Role Trusted entities](../../_static/images/enum-iam-roles-te.png)
+
 26. Similarly enumerate other roles.
 
 ## CLI Based Enumeration
