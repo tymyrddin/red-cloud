@@ -45,8 +45,8 @@ someone else's server, and the data is often in the clear, in motion and in use.
 
 ----
 
-Attacking and defending AWS
----------------------------------------------
+Pentester Academy: Attacking and defending AWS
+--------------------------------------------------
 
 .. toctree::
    :maxdepth: 1
