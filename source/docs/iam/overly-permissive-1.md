@@ -55,6 +55,8 @@ aws iam get-policy --policy-arn arn:aws:iam::862839114976:policy/Service
 ```text
 ┌──(kali㉿kali)-[~]
 └─$ aws iam create-user --user-name Bob
+
+An error occurred (AccessDenied) when calling the CreateUser operation: User: arn:aws:iam::527058492733:user/student is not authorized to perform: iam:CreateUser on resource: arn:aws:iam::527058492733:user/Bob because no identity-based policy allows the iam:CreateUser action
 ```
 
 FAIL.
