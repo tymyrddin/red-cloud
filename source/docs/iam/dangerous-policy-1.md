@@ -280,7 +280,7 @@ unset AWS_SESSION_TOKEN
 
 Successfully attached AdministratorAccess policy to Printers group.
 
-20. Try creating a new user named Bob to verify Administrator Access:
+20. Try creating a new user named Bob to verify `Administrator Access`:
 
 ```text
 ┌──(kali㉿kali)-[~]
