@@ -1,11 +1,7 @@
 Head in the clouds
 ==============================================
 
-Virtualisation technology in the cloud has become a huge resource to leverage, as it promises high availability
-and access to resources from anywhere ... meanwhile, none of the cloud suppliers protect the data under their care.
-They protect the security of the cloud, not the data in the cloud. Responsibility for the CIA (confidentiality,
-integrity, and availability) of the data in the cloud, remains with the data owner. Data in the cloud is running on
-someone else's server, and the data is often in the clear, in motion and in use.
+Virtualisation technology in the cloud has become a huge resource to leverage, as it promises high availability and access to resources from anywhere. From individuals, enterprises to large conglomerates, nearly everyone is migrating towards the cloud. With this come often unseen threats because cloud environments are different from the traditional infrastructure.
 
 .. image:: _static/images/in-progress.png
   :alt: Forever in progress ...
@@ -48,6 +44,8 @@ someone else's server, and the data is often in the clear, in motion and in use.
 Pentester Academy: Attacking and defending AWS
 --------------------------------------------------
 
+With millions of active customers, Amazon Web Services (AWS) is one of the most popular cloud service providers, and due to the same reason, it is of prime importance to hackers. Gaining access to one such corporate AWS account can cost a company billions of dollars, and users their privacy and perhaps even their identity.
+
 .. toctree::
    :maxdepth: 1
    :includehidden:
@@ -63,12 +61,19 @@ Pentester Academy: Attacking and defending AWS
    docs/iam/pass-role-ec2.md
    docs/iam/pass-role-lambda.md
    docs/iam/pass-role-formation.md
-   docs/iam/api-gateway-enum.md
-   docs/iam/verb-tampering.md
-   docs/iam/mis-private-api.md
-   docs/iam/iam-auth.md
-   docs/iam/dos.md
-   docs/iam/poor-lambda-authoriser.md
+
+.. toctree::
+   :maxdepth: 1
+   :includehidden:
+   :caption: API Gateway
+
+   docs/api/README.md
+   docs/api/api-gateway-enum.md
+   docs/api/verb-tampering.md
+   docs/api/mis-private-api.md
+   docs/api/iam-auth.md
+   docs/api/dos.md
+   docs/api/poor-lambda-authoriser.md
 
 ----
 
