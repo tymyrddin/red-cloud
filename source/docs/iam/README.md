@@ -17,8 +17,8 @@ With millions of active customers, Amazon Web Services (AWS) is one of the most 
 ## How?
 
 - [x] [IAM enumeration](enum-iam.md)
-- [ ] [Misconfigured trust policy](mis-trust-policy.md)
-- [ ] [Overly permissive permission I](overly-permissive-1.md)
+- [x] [Misconfigured trust policy](mis-trust-policy.md)
+- [x] [Overly permissive permission I](overly-permissive-1.md)
 - [ ] [Dangerous policy combination I](dangerous-policy-1.md)
 - [ ] [Dangerous policy combination II](dangerous-policy-2.md)
 - [ ] [Overly permissive permission II](overly-permissive-2.md)

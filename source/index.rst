@@ -45,27 +45,30 @@ someone else's server, and the data is often in the clear, in motion and in use.
 
 ----
 
+Attacking and defending AWS
+---------------------------------------------
+
 .. toctree::
    :maxdepth: 1
    :includehidden:
-   :caption: Attacking and defending AWS
+   :caption: IAM
 
-   docs/aws/README.md
-   docs/aws/enum-iam.md
-   docs/aws/mis-trust-policy.md
-   docs/aws/overly-permissive-1.md
-   docs/aws/dangerous-policy-1.md
-   docs/aws/dangerous-policy-2.md
-   docs/aws/overly-permissive-2.md
-   docs/aws/pass-role-ec2.md
-   docs/aws/pass-role-lambda.md
-   docs/aws/pass-role-formation.md
-   docs/aws/api-gateway-enum.md
-   docs/aws/verb-tampering.md
-   docs/aws/mis-private-api.md
-   docs/aws/iam-auth.md
-   docs/aws/dos.md
-   docs/aws/poor-lambda-authoriser.md
+   docs/iam/README.md
+   docs/iam/enum-iam.md
+   docs/iam/mis-trust-policy.md
+   docs/iam/overly-permissive-1.md
+   docs/iam/dangerous-policy-1.md
+   docs/iam/dangerous-policy-2.md
+   docs/iam/overly-permissive-2.md
+   docs/iam/pass-role-ec2.md
+   docs/iam/pass-role-lambda.md
+   docs/iam/pass-role-formation.md
+   docs/iam/api-gateway-enum.md
+   docs/iam/verb-tampering.md
+   docs/iam/mis-private-api.md
+   docs/iam/iam-auth.md
+   docs/iam/dos.md
+   docs/iam/poor-lambda-authoriser.md
 
 ----
 
