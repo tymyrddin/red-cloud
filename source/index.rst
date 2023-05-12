@@ -44,7 +44,7 @@ Virtualisation technology in the cloud has become a huge resource to leverage, a
 Pentester Academy: Attacking and defending AWS
 --------------------------------------------------
 
-With millions of active customers, Amazon Web Services (AWS) is one of the most popular cloud service providers, and due to the same reason, it is of prime importance to hackers. Gaining access to one such corporate AWS account can cost a company billions of dollars, and users their privacy and perhaps even their identity.
+With millions of active customers, Amazon Web Services (AWS) is one of the most popular cloud service providers, hence also of importance to hackers. Gaining access to one such corporate AWS account can cost a company billions of dollars, and users their privacy and perhaps even their identity.
 
 .. toctree::
    :maxdepth: 1
