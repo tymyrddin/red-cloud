@@ -1,9 +1,6 @@
 # Cloud
 
-Built with [Sphinx](https://www.sphinx-doc.org) using a [theme](https://github.com/readthedocs/sphinx_rtd_theme) provided
-by [Read the Docs](https://readthedocs.org/).
-
-[![Documentation Status](https://readthedocs.org/projects/red-cloud/badge/?version=latest)](https://red.tymyrddin.dev/projects/cloud/en/latest/?badge=latest)
+[![Netlify Status](https://api.netlify.com/api/v1/badges/4f15a952-4a16-435e-855c-8658b2ae023e/deploy-status)](https://app.netlify.com/sites/earnest-queijadas-c57ec5/deploys)
 
 ## Requirements
 
