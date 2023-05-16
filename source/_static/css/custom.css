@@ -1,21 +1,21 @@
 h1 {
-  color: #DD0000;
+  color: #AA00FF;
 }
 
 a {
-  color: #DD0000;
+  color: #AA00FF;
 }
 
 a:hover {
-  color: #FF0000;
+  color: #CC00FF;
 }
 
 .wy-nav .wy-menu-vertical header {
-  color: #DD0000
+  color: #AA00FF;
 }
 
 .wy-menu-vertical header, .wy-menu-vertical p.caption {
-  color: #DD0000;
+  color: #AA00FF;
 }
 
 .wy-side-nav-search {
@@ -27,7 +27,7 @@ a:hover {
   width: 100%;
   border-radius: 0px;
   padding: 6px 12px;
-  border-color: #DD0000;
+  border-color: #AA00FF;
 }
 
 .highlight {
@@ -36,8 +36,10 @@ a:hover {
 }
 
 .wy-nav-top {
-  background: #990000;
+  background: #AA00FF;
 }
+
+
 
 /* Breadcrumbs as navbar
 ***********************************/
@@ -145,4 +147,3 @@ topnav ul {
 .wy-side-nav-search {
   background-image: url('../images/site/background.png');
 }
-
