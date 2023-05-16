@@ -18,4 +18,4 @@ AWS Policies are a key foundation in good cloud security, but they are often ove
 - [x] [Overly permissive permission II](overly-permissive-2.md)
 - [x] [Pass Role: EC2](pass-role-ec2.md)
 - [x] [Pass Role: Lambda](pass-role-lambda.md)
-- [ ] [Pass Role: CloudFormation](pass-role-formation.md)
+- [x] [Pass Role: CloudFormation](pass-role-formation.md)

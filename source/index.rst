@@ -13,7 +13,7 @@ Virtualisation technology in the cloud has become a huge resource to leverage, a
    :includehidden:
    :caption: Test lab
 
-   AWS tools <https://red.tymyrddin.dev/projects/testlab/en/latest/docs/cloud/aws.html>
+   AWS tools <https://testlab.tymyrddin.dev/docs/cloud/aws>
 
 ----
 
@@ -22,8 +22,8 @@ Virtualisation technology in the cloud has become a huge resource to leverage, a
    :includehidden:
    :caption: Preparation
 
-   Reconnaissance <https://red.tymyrddin.dev/projects/recon/en/latest/docs/cloud/README.html>
-   Enumeration <https://red.tymyrddin.dev/projects/enum/en/latest/docs/system/cloud.html>
+   Reconnaissance <https://recon.tymyrddin.dev/docs/cloud/README>
+   Enumeration <https://enum.tymyrddin.dev/docs/system/cloud>
 
 ----
 
